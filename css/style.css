@@ -22,6 +22,46 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
 }
 
+h1::selection{
+    background-color: var(--color-selection);
+}
+
+h3::selection{
+    background-color: var(--color-selection);
+}
+
+h4::selection{
+    background-color: var(--color-selection);
+}
+
+h5::selection{
+    background-color: var(--color-selection);
+}
+
+h6::selection{
+    background-color: var(--color-selection);
+}
+
+span::selection{
+    background-color: var(--color-selection);
+}
+
+input::selection{
+    background-color: var(--color-selection);
+}
+
+textarea::selection{
+    background-color: var(--color-selection);
+}
+
+p::selection{
+    background-color: var(--color-selection);
+}
+
+a::selection{
+    background-color: var(--color-selection);
+}
+
 a {
     text-decoration: none;
     color: var(--color-body);
